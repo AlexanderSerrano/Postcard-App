@@ -67,6 +67,15 @@
                                     <rect key="frame" x="16" y="82" width="338" height="52"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GU-QA-hYk">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="142" width="250" height="42"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NcJ-F6-kbL">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -108,6 +117,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="8i6-xB-ePU"/>
+                                <exclude reference="0GU-QA-hYk"/>
                                 <exclude reference="NcJ-F6-kbL"/>
                                 <exclude reference="Hi3-4H-Hdc"/>
                                 <exclude reference="GfU-AV-gpH"/>
@@ -117,6 +127,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="8i6-xB-ePU"/>
+                                <include reference="0GU-QA-hYk"/>
                                 <include reference="NcJ-F6-kbL"/>
                                 <include reference="Hi3-4H-Hdc"/>
                                 <include reference="GfU-AV-gpH"/>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="Hi3-4H-Hdc" id="nah-j1-PYf"/>
                         <outlet property="mailButton" destination="jCP-DL-d07" id="aSi-7G-Nfo"/>
                         <outlet property="messageLabel" destination="8i6-xB-ePU" id="lMF-5d-jRT"/>
+                        <outlet property="nameLabel" destination="0GU-QA-hYk" id="7ie-uv-7Pq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
